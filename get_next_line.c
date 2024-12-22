@@ -109,22 +109,3 @@ char	*get_next_line(int fd)
 	the_static_var = ft_the_rest_of_line(the_static_var);
 	return (line);
 }
-
-// int	main(void)
-// {
-// 	int		fd;
-// 	char	*line;
-
-// 	fd = open("file1.txt", O_RDONLY);
-// 	if (fd == -1)
-// 	{
-// 		printf("error");
-// 	}
-// 	while ((line = get_next_line(fd)) != NULL)
-// 	{
-// 		printf("%s", line);
-// 		free(line);
-// 	}
-// 	close(fd);
-// 	return (0);
-// }
